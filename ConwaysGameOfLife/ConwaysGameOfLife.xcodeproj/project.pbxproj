@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		95EAF1F924ECC283001E60FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EAF1F824ECC283001E60FB /* AppDelegate.swift */; };
 		95EAF1FB24ECC283001E60FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EAF1FA24ECC283001E60FB /* SceneDelegate.swift */; };
-		95EAF1FD24ECC284001E60FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EAF1FC24ECC284001E60FB /* ViewController.swift */; };
 		95EAF20024ECC284001E60FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EAF1FE24ECC284001E60FB /* Main.storyboard */; };
 		95EAF20324ECC284001E60FB /* ConwaysGameOfLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95EAF20124ECC284001E60FB /* ConwaysGameOfLife.xcdatamodeld */; };
 		95EAF20524ECC285001E60FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EAF20424ECC285001E60FB /* Assets.xcassets */; };
 		95EAF20824ECC285001E60FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EAF20624ECC285001E60FB /* LaunchScreen.storyboard */; };
+		95EAF21424ECCB9A001E60FB /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EAF21324ECCB9A001E60FB /* GridViewController.swift */; };
+		95EAF21624ECCC49001E60FB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EAF21524ECCC49001E60FB /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		95EAF1F524ECC283001E60FB /* ConwaysGameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConwaysGameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EAF1F824ECC283001E60FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95EAF1FA24ECC283001E60FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		95EAF1FC24ECC284001E60FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95EAF1FF24ECC284001E60FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95EAF20224ECC284001E60FB /* ConwaysGameOfLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConwaysGameOfLife.xcdatamodel; sourceTree = "<group>"; };
 		95EAF20424ECC285001E60FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95EAF20724ECC285001E60FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95EAF20924ECC285001E60FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95EAF21324ECCB9A001E60FB /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		95EAF21524ECCC49001E60FB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,8 @@
 		95EAF21024ECC2CD001E60FB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				95EAF1FC24ECC284001E60FB /* ViewController.swift */,
+				95EAF21324ECCB9A001E60FB /* GridViewController.swift */,
+				95EAF21524ECCC49001E60FB /* GameViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -173,7 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95EAF1FD24ECC284001E60FB /* ViewController.swift in Sources */,
+				95EAF21624ECCC49001E60FB /* GameViewController.swift in Sources */,
+				95EAF21424ECCB9A001E60FB /* GridViewController.swift in Sources */,
 				95EAF20324ECC284001E60FB /* ConwaysGameOfLife.xcdatamodeld in Sources */,
 				95EAF1F924ECC283001E60FB /* AppDelegate.swift in Sources */,
 				95EAF1FB24ECC283001E60FB /* SceneDelegate.swift in Sources */,
