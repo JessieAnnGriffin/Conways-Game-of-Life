@@ -10,12 +10,29 @@ import UIKit
 
 class GridViewController: UIViewController {
 
+    let gridController = GridController()
+
+    @IBOutlet var cellButtons: [UIButton]! {
+        didSet {
+            for button in cellButtons {
+                button.layer.borderWidth = 1.0
+                button.layer.borderColor = UIColor.black.cgColor
+            }
+        }
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        createButtons()
     }
-    
+
+    private func createButtons() {
+        for cell in gridController.cells {
+            let button = UIButton()
+            button.backgroundColor = .lightGray
+            cellButtons.append(button)
+        }
+    }
 
     /*
     // MARK: - Navigation

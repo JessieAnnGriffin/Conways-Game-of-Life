@@ -3333,6 +3333,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WgD-Ct-HEM"/>
                     </view>
+                    <connections>
+                        <outlet property="cellButtons" destination="A5d-BW-Ohs" id="LVo-8N-QDr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tqc-Pm-Y16" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
