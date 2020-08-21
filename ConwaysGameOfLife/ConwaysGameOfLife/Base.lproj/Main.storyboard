@@ -3331,11 +3331,12 @@
                             <constraint firstAttribute="trailing" secondItem="A5d-BW-Ohs" secondAttribute="trailing" id="cLX-k5-V88"/>
                             <constraint firstItem="A5d-BW-Ohs" firstAttribute="top" secondItem="qHc-LJ-P5x" secondAttribute="top" id="o5A-Rs-bbw"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="WgD-Ct-HEM"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tqc-Pm-Y16" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1903" y="-348"/>
+            <point key="canvasLocation" x="1939" y="134"/>
         </scene>
     </scenes>
 </document>
